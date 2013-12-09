@@ -1,3 +1,38 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+# Basic site details.
+name: The Guild
+description: 'The Guild is an online and print magazine providing insight and inspiration to the design community.'
+url: http://theguild.co
+timezone: America/New_York
+permalink: /digest/:title
+paginate: 5
+
+# Author info.
+authors:
+  devin:
+    first_name: Devin
+    last_name: Devin Halladay
+    avatar: https://twitter.com/api/users/profile_image/devinhalladay?size=original
+    email: devin@theguild.co
+    site: http://devinhalladay.com/
+    twitter: devinhalladay
+    dribbble: devinhalladay
+
+# Basic system details.
+markdown: kramdown
+port: 4200
+
+# Files to include or exclude when generating the site.
+exclude: ['README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+include: ['.htaccess']
+
+# Files to exclude from the site's search index.
+lunr_excludes: ['atom.xml', 'sitemap.xml']
+
+# Controller for the asset pipeline.
+assets:
+  js_compressor: uglifier
+  css_compressor: sass
+  sources:
+      - _assets/js
+      - _assets/sass
+  gzip: false
