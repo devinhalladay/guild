@@ -35,4 +35,5 @@ assets:
   sources:
       - _assets/js
       - _assets/sass
+      - _assets/fonts
   gzip: false

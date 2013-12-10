@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+@font-face {
+  font-family: "LavaStd-Bold";
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/assets/fonts/lava/lavastd-bold.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "LavaStd-BoldSC";
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/assets/fonts/lava/lavastd-bold_SC.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-bold_SC.woff") format("woff");
+}
+@font-face {
+  font-family: "LavaStd-BoldItalic";
+  font-stretch: normal;
+  font-style: italic;
+  font-weight: bold;
+  src: url("/assets/fonts/lava/lavastd-bolditalic.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-bolditalic.woff") format("woff");
+}
+@font-face {
+  font-family: "LavaStd-Reg";
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/lava/lavastd-regular.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Lava Std Sc";
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/lava/lavastd-regular_SC.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-regular_SC.woff") format("woff");
+}
+@font-face {
+  font-family: "LavaStd-RegularItalic";
+  font-stretch: normal;
+  font-style: italic;
+  font-weight: normal;
+  src: url("/assets/fonts/lava/lavastd-regularitalic.eot") format("embedded-opentype"),
+    url("/assets/fonts/lava/lavastd-regularitalic.woff") format("woff");
+}
