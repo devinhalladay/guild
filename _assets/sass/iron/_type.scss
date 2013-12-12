@@ -1,0 +1,16 @@
+body {
+  color: #222;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  &:hover, &:focus {
+    color: $link-color;
+  }
+}
+
+del {
+  opacity: .65;
+  text-decoration: line-through;
+}

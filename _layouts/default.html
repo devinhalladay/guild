@@ -20,7 +20,57 @@
   <!-- Typothque font CSS -->
   <link rel="stylesheet" href="//fonts.typotheque.com/WF-022306-003261.css" type="text/css">
 </head>
+
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
- {{ content }}
+  <div class="wrap">
+    <div class="header">
+      <h1><a href="{{ site.url }}">The Guild</a></h1>
+      <ul>
+        <li><a{% if page.url == '/' %} class="active"{% endif %} href="/">Home</a></li>
+        <li><a{% if page.url == '/about/' %} class="active"{% endif %} href="/about">About</a></li>
+        <li><a{% if page.url == '/archives/' %} class="active"{% endif %} href="/archives">Archives</a></li>
+      </ul>
+      <div>
+        <form id="search" action="/search" method="get">
+          <label for="query">Search</label>
+          <input type="text" name="q" id="search-query" placeholder="Search" value="" autocomplete="off">
+        </form>
+      </div>
+    </div>
+
+    <div class="page">
+      {{ content }}
+    </div>
+  </div>
+
+    <div id="footer" style="min-height: 267px;">
+      <div class="wrap">
+      <hr class="top">
+      <div class="stills" id="stills" style="">
+        <h3>Stills <span>06 Dec 2013</span></h3>
+        <ul class="nav">
+          <li class="todaysstill" style="display: none;"><a href="#"><em class="icon"></em><span>View Today’s Still</span></a></li>
+          <li class="recentstills"><a href="#"><em class="icon"></em><span>View Recent Stills</span></a></li>
+          <li><a href="http://stills.notcoming.com/archive"><span>Go to Stills Archive →</span></a></li>
+        </ul>
+        <div class="repeated-nav">
+          <hr>
+          <p><a href="http://www.notcoming.com">Not Coming to a Theater Near You</a> is a film resource that assumes a bias towards older, often unpopular, and sometimes unknown films that merit a second look. <a href="/siteinfo">Read more about us</a> or <a href="/contact">Get in touch</a>.</p>
+          <ul class="share">
+            <li class="rss">
+              <a href="http://www.notcoming.com/rss.xml">Subscribe to RSS feed</a>
+            </li>
+            <li class="facebook">
+              <a href="http://www.facebook.com/notcoming">Join our Facebook group</a>
+            </li>
+            <li class="twitter">
+              <a href="http://www.twitter.com/notcoming">Follow us on Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% javascript main %}
 </body>
 </html>

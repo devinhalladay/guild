@@ -1,0 +1,10 @@
+.screen-reader-hide {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.text-hide {
+  text-indent: -9999px;
+  opacity: 0;
+}

@@ -1,0 +1,6 @@
+$link-color: #1EBE6F;
+
+$tablet: new-breakpoint(720px);
+$laptop: new-breakpoint(980px);
+
+$smaller-than-laptop: new-breakpoint( max-width 980px );

@@ -1,13 +1,39 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Index
+class: index
 ---
+{% for post in site.posts | limit: 1 %}
+  <div class="feature">
+    <a href="{{ post.url }}" class="link">
+      <img src="{{ post.feature_image }}" alt="{{ post.title }}">
+      <h4>{{ post.title }}</h4>
+    </a>
+    <div>
+      {{ post.excerpt }}
+    </div>
+    <cite>
+      <em class="first-label">Article by: </em>{{ post.author }}
+      <em>Posted on: </em>{{ post.date }}
+    </cite>
+  </div>
+{% endfor %}
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<div class="issue-articles">
+  <div>
+    <h3><a href="/issue">Articles in This Issue</a></h3>
+    {% for post in site.posts | offset: 1 %}
+      <a href="{{ post.url }}" class="link">
+        <span>
+          <img src="{{ post.feature_image }}" alt="{{ post.title }}">
+        </span>
+        <h4>{{ post.title }}</h4>
+      </a>
+      <p>{{ post.excerpt }}</p>
+      <cite>
+        <em class="first-label">Article by: </em>{{ post.author }}
+        <em>Posted on: </em>{{ post.date }}
+      </cite>
     {% endfor %}
-  </ul>
+  </div>
 </div>

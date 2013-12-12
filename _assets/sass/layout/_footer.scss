@@ -1,0 +1,12 @@
+#footer {
+  @include span-columns( 12 of 12 );
+  background: #202020;
+  color: #fff;
+
+  .wrap {
+    @include span-columns( 11 of 12 );
+    @include omega;
+    margin: auto;
+    float: none;
+  }
+}

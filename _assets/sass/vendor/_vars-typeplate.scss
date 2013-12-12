@@ -20,12 +20,11 @@
 // -------------------------------------//
 
 $font-weight: normal;
-$line-height: 1.65;
-$font-size: 100; // percentage value (16 * 112.5% = 18px)
-$font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
-$font-family: 'Lava Regular', Georgia, serif; // Non-font-face font-stack
+$line-height: 1.571;
+$font-size: 87.5; // percentage value (16 * 100% = 16px)
+$font-base: 14 * ($font-size/100); // converts our percentage to a pixel value
+$font-family: "Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif; // Non-font-face font-stack
 $custom-font-family: false; // Custom font-face stack, if set will be added to the $font-family
-
 
 // $Paragraphs
 // -------------------------------------//
@@ -55,13 +54,13 @@ $heading-color: #222;
 // $Ampersand
 // -------------------------------------//
 
-$amp-fontface-name: Ampersand;
-$amp-fontface-source: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
-$amp-fontface-fallback: local('Georgia');
+// $amp-fontface-name: Ampersand;
+// $amp-fontface-source: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
+// $amp-fontface-fallback: local('Georgia');
 
 // Allows for our ampersand element to have differing
 // font-family from the ampersand unicode font-family.
-$amp-font-family: Verdana, sans-serif;
+// $amp-font-family: Verdana, sans-serif;
 
 
 // $Icon-Font-Helper
@@ -74,15 +73,15 @@ $icon-fonts: null;
 // $TypeScale
 // -------------------------------------//
 
-$tera: 117; // 117 = 18 × 6.5
-$giga: 90; // 90 = 18 × 5
-$mega: 72; // 72 = 18 × 4
-$alpha: 60; // 60 = 18 × 3.3333
-$beta: 48; // 48 = 18 × 2.6667
-$gamma: 36; // 36 = 18 × 2
-$delta: 24; // 24 = 18 × 1.3333
-$epsilon: 21; // 21 = 18 × 1.1667
-$zeta: 18; // 18 = 18 × 1
+$tera: 104; // 104 = 16 × 6.5
+$giga: 80; // 90 = 16 × 5
+$mega: 64; // 72 = 16 × 4
+$alpha: 53; // 60 = 16 × 3.3333
+$beta: 43; // 48 = 16 × 2.6667
+$gamma: 32; // 36 = 16 × 2
+$delta: 21; // 24 = 16 × 1.3333
+$epsilon: 19; // 21 = 16 × 1.1667
+$zeta: 16; // 16 = 16 × 1
 
 
 // $TypeScale-Unit

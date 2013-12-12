@@ -4,6 +4,7 @@ description: 'The Guild is an online and print magazine providing insight and in
 url: http://theguild.co
 timezone: America/New_York
 permalink: /digest/:title
+relative_permalinks: false
 paginate: 5
 
 # Author info.
