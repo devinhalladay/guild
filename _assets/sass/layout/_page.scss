@@ -1,28 +1,28 @@
 .wrap {
   @include outer-container;
+  margin: 0 20px;
 
- @include media( $laptop ) {
-    $max-width: 960px;
-    @include outer-container;
+  @include media( $laptop ) {
+    margin: auto;
   }
 }
 
 .page {
-  @include span-columns( 11 of 12 );
+  width: 100%;
   margin: auto;
   float: none;
 
-  @include media($laptop) {
-    @include span-columns( 9 of 12 );
-    float: left;
+  @include media( $tablet ) {
+    width: 692px;
+    margin-top: 20px;
+    clear: both;
+    margin: 0 auto;
   }
 
-  @include media( $smaller-than-laptop ) {
-    @include span-columns( 11 of 12, collapse );
-    margin: auto;
-    float: none;
-    &:last-child {
-      margin-right: auto;
-    }
+  @include media( $laptop ) {
+    width: 692px;
+    float: left;
+    margin: 0;
+    margin-top: 20px;
   }
 }
