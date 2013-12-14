@@ -3,6 +3,16 @@
   margin: auto;
   margin-top: 20px;
 
+  @include media( $tablet ) {
+    width: 692px;
+    margin: auto;
+    float: none;
+    margin-top: 20px;
+    &:last-child {
+      margin-right: auto;
+    }
+  }
+
   @include media( $desktop ) {
     @include span-columns( 3 of 12 );
     float: right;
