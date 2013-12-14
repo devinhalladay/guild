@@ -2,6 +2,6 @@
 //= require vendor/parsley.min
 //= require vendor/parsley.extend
 
-/* $(function() {
+/*$(function() {
   var nav = responsiveNav(".nav-collapse");
-}); */
+});*/

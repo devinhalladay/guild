@@ -586,6 +586,12 @@ h1 {
 	@extend %hN;
 }
 
+.alpha {
+	line-height: 1.12;
+	letter-spacing: -.04em;
+	margin-bottom: 1.55rem;
+}
+
 h2 {
 	@extend .beta;
 	@extend %hN;

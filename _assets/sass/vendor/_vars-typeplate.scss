@@ -23,7 +23,7 @@ $font-weight: normal;
 $line-height: 1.571;
 $font-size: 87.5; // percentage value (16 * 100% = 16px)
 $font-base: 14 * ($font-size/100); // converts our percentage to a pixel value
-$font-family: "Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif; // Non-font-face font-stack
+$font-family: $serif; // Non-font-face font-stack
 $custom-font-family: false; // Custom font-face stack, if set will be added to the $font-family
 
 // $Paragraphs
@@ -41,14 +41,14 @@ $paragraph-vertical-whitespace: false;
 // $Small Print
 // -------------------------------------//
 
-$small-print-size: 65%;
+$small-print-size: 90%;
 
 
 // $Color
 // -------------------------------------//
 
-$body-copy-color: #444;
-$heading-color: #222;
+$body-copy-color: #37403B;
+$heading-color: #37403B;
 
 
 // $Ampersand
@@ -109,7 +109,7 @@ $cite-font-size: inherit;
 // $SmallCaps
 // -------------------------------------//
 
-$small-caps-color: gray;
+$small-caps-color: $body-copy-color;
 $small-caps-weight: 600;
 
 

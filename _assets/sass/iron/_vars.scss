@@ -1,6 +1,7 @@
 $link-color: #1EBE6F;
 
+$serif: "Mercury SSm 4r","Mercury SSm A","Mercury SSm B","Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+$sans: "Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+
 $tablet: new-breakpoint(720px);
 $desktop: new-breakpoint(981px);
-
-$less-than-laptop: new-breakpoint( max-width 980px );

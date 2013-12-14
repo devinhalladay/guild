@@ -1,5 +1,7 @@
 body {
-  color: #222;
+  text-rendering: optimizeLegibility;
+  background: #FCFCFC;
+  text-shadow: 0 1px 0 #FFF;
 }
 
 a {
@@ -13,4 +15,15 @@ a {
 del {
   opacity: .65;
   text-decoration: line-through;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-family: "Mercury SSm SC A","Mercury SSm SC B",Georgia,serif;
+  letter-spacing: .02em;
+}
+
+figcaption {
+  font-family: $sans;
+  color: #808A91;
 }
