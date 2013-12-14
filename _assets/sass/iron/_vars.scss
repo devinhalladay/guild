@@ -5,3 +5,4 @@ $sans: "Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida
 
 $tablet: new-breakpoint(720px);
 $desktop: new-breakpoint(981px);
+$smaller-than-desktop: new-breakpoint(max-width 980px);

@@ -4,7 +4,7 @@
   margin-top: 20px;
   font-family: $sans;
 
-  @include media( $tablet ) {
+  @include media( $smaller-than-desktop ) {
     position: relative;
     margin: -20px auto 19px auto;
     width: 692px;
@@ -29,6 +29,40 @@
         height: 118px;
         float: left;
         text-indent: -9999px;
+      }
+    }
+    ul {
+      height: 140px;
+      li {
+        display: inline;
+        a {
+          display: inline;
+          float: left;
+          background: none;
+          margin-right: 20px;
+          margin-top: -2px;
+        }
+      }
+    }
+    #search {
+      position: absolute;
+      bottom: 22px;
+      width: 70%;
+      margin: 0px 0 0 178px;
+      background: none;
+      #search-query {
+        width: 92.4%;
+        vertical-align: middle;
+        height: 50px;
+        background: #E6E6E6;
+        border: none;
+        margin: 0;
+        font-size: 16px;
+        line-height: 54px;
+        padding: 0 20px 0 20px;
+      }
+      label {
+        display: none;
       }
     }
   }
