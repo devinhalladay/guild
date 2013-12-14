@@ -1,28 +1,10 @@
-.wrap {
-  @include outer-container;
-  margin: 0 20px;
-
-  @include media( $laptop ) {
-    margin: auto;
-  }
-}
-
 .page {
-  width: 100%;
+  @include span-columns( 12 of 12 );
   margin: auto;
-  float: none;
 
-  @include media( $tablet ) {
-    width: 692px;
-    margin-top: 20px;
-    clear: both;
-    margin: 0 auto;
-  }
-
-  @include media( $laptop ) {
-    width: 692px;
+  @include media( $desktop ) {
+    @include span-columns( 9 of 12 );
     float: left;
-    margin: 0;
     margin-top: 20px;
   }
 }

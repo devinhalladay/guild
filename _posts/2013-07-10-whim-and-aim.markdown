@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Whim & Aim
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 Great design is, more often than not, a delicate balancing act. On one side of the scale, we must strive to fulfil the needs of the task at hand; design something appropriate, usable, resilient, and clever. On the other, we must satisfy the needs of our more human selves; the personal tastes of ourselves and our clients, the itch pushing us to try something new, and the styles of the time.

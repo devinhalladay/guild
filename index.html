@@ -7,22 +7,22 @@ class: index
   <div class="feature">
     <a href="{{ post.url }}" class="link">
       <img src="{{ post.feature_image }}" alt="{{ post.title }}">
-      <h4 class="alpha">{{ post.title }}</h4>
+      <h4 class="beta">{{ post.title }}</h4>
     </a>
     <div>
       {{ post.excerpt }}
     </div>
     <cite>
       <em class="first-label">Article by: </em>{{ post.author }}
-      <em>Posted on: </em>{{ post.date }}
+      <em>Posted on: </em>{{ post.date | date: "%-d %B %Y" }}
     </cite>
   </div>
 {% endfor %}
 
 <div class="issue-articles">
-  <div>
-    <h3><a href="/issue">Articles in This Issue</a></h3>
-    {% for post in site.posts | offset: 1 %}
+  <h3><a href="/issue">Articles in This Issue</a></h3>
+  {% for post in site.posts | offset: 1 | limit: 4 %}
+    <div>
       <a href="{{ post.url }}" class="link">
         <span>
           <img src="{{ post.feature_image }}" alt="{{ post.title }}">
@@ -32,8 +32,8 @@ class: index
       <p>{{ post.excerpt }}</p>
       <cite>
         <em class="first-label">Article by: </em>{{ post.author }}
-        <em>Posted on: </em>{{ post.date }}
+        <em>Posted on: </em>{{ post.date | date: "%-d %B %Y" }}
       </cite>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>

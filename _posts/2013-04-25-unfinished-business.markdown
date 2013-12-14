@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unfinished Business
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 There's no better motivator for work than passion. Looming deadlines give you a motivational boost driven by panic, but it's a different kind of motivation. It's messy, and more often than not, it shows. Compare that kind of motivation to that of passion; a project motivated by passion is always improving. It's never "done". And it's always fun.

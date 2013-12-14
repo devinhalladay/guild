@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} &#10087; {{ site.name }}</title>
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="initial-scale=1">
+---
+layout: default
+class: article
+---
+<div class="left-content">
+  <div class="summary">
+    Zip Creative Director Neil Bowen talks quick turnarounds and wicker sculptures.
+  </div>
 
-  <!-- Grab our super-cacheable, super-compressed site CSS -->
-  {% stylesheet main %}
-  {% if page.custom_css %}{{ page.custom_css | stylesheet }}{% endif %}
+  <div class="author">
+    Posted in <a href="/intelligence/features?category=1">Interviews</a>, <a href="/intelligence/features?category=5">Creative Cultures</a>
+  </div>
+</div>
 
-  <!-- Prefetch DNS -->
-  <link rel="dns-prefetch" href="//fonts.typotheque.com/WF-022306-003261.css">
-
-  <!-- Touch icon -->
-  <link rel="apple-touch-icon" href="">
-
-  <!-- Typothque font CSS -->
-  <link rel="stylesheet" href="//fonts.typotheque.com/WF-022306-003261.css" type="text/css">
-</head>
-<body{% if page.class %} class="{{ page.class }}"{% endif %}>
+<div class="right-content">
   {{ content }}
-</body>
-</html>
+</div>

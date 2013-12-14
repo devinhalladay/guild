@@ -1,5 +1,7 @@
 //= require vendor/lunr.min
 //= require vendor/mustache
+//= require vendor/date.format
+//= require vendor/URI
 //= require vendor/jquery.lunr.search
 
 $(function() {

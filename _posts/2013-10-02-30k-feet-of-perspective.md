@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thirty Thousand Feet of Perspective
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 It was no more than a couple of years ago when I was sitting on a flight on my own for the first time. I think I’ll always remember that trip as the one that changed my career. My trip to Helsinki as a speaker at a conference was the first time I felt good at what I was doing.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You’re Good. Get Better.
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 _Profanity warning:_ I don't normally swear this much. Fuck convention.

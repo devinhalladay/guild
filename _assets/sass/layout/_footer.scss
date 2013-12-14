@@ -4,7 +4,7 @@
   color: #fff;
 
   .wrap {
-    @include span-columns( 11 of 12 );
+    @include span-columns( 11 );
     @include omega;
     margin: auto;
     float: none;

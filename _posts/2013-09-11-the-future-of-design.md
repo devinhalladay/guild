@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heart and The Future of Design
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 In the [most recent episode](http://www.happymondaypodcast.com/episodes/sarah-josh2) of Happy Monday Podcast, [Josh](https://twitter.com/joshlong) and [Sarah](https://twitter.com/sazzy) get into talking about iOS 7 and its implications for us as designers. Sarah said something that really hit me (emphasis mine):

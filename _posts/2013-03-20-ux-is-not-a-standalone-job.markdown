@@ -2,7 +2,7 @@
 layout: post
 slug: ux-is-not-a-standalone-job
 title: “User Experience”
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 Digital goods have been around for some time now. Graphical user interfaces haven’t really evolved all that much since the first ones popped up – we still have windows, desktops, icons, and cursors. Cursors are starting to disappear, but the concept remains the same. Our cursors are just getting fatter, and we have five of them on each hand.

@@ -1,40 +1,11 @@
 .header {
+  @include span-columns( 12 of 12 );
   margin: auto;
-  position: relative;
-  height: 44px;
-  margin: -20px 0 20px 0;
-  background: #222 url(../img/mobile_bkg.jpg) repeat;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  overflow: visible;
+  margin-top: 20px;
 
-  @include media( $tablet ) {
-    background: none;
-  }
-
-  @include media( $laptop ) {
-    position: absolute;
-    top: 20px;
-    display: block;
-    width: 227px;
-    margin: 0 0 0 711px;
-    padding-left: 22px;
-    border-left: 1px solid #222;
-  }
-
-  h1 {
-    display: block;
-    width: 224px;
-    height: 168px;
-    background: #010101 url(http://notcoming.com/includes/img/nameplate.png) no-repeat;
-    border-radius: 3px;
-    a {
-      display: block;
-      width: 224px;
-      height: 168px;
-      float: left;
-      text-indent: -9999px;
-      opacity: 0;
-    }
+  @include media( $desktop ) {
+    @include span-columns( 3 of 12 );
+    float: right;
+    margin-right: 0;
   }
 }

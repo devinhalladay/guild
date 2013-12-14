@@ -1,0 +1,15 @@
+.left-content {
+  @include media( $desktop ) {
+    @include span-columns( 3 of 9 );
+    float: left;
+    height: 100%;
+  }
+}
+
+.right-content {
+  @include media( $desktop ) {
+    @include span-columns( 6 of 9 );
+    float: right;
+    height: 100%
+  }
+}

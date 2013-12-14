@@ -1,0 +1,16 @@
+.issue-articles {
+  @include span-columns( 9 of 9 );
+
+  @include media( $desktop ) {
+    div {
+      width: 48%;
+      float: left;
+      clear: both;
+      margin-bottom: 30px;
+      &:nth-child(odd) {
+        clear: none;
+        float: right;
+      }
+    }
+  }
+}

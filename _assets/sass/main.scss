@@ -28,7 +28,7 @@
 // @import "vendor/vars-susy";
 
 @import "iron/vars";
-@import  "iron/mixins";
+@import "iron/mixins";
 
 @import "vendor/normalize";
 @import "iron/reset";
@@ -41,6 +41,9 @@
 @import "iron/images";
 @import "iron/hide";
 
+@import "layout/wrap";
 @import "layout/header";
 @import "layout/page";
+@import "layout/post";
+@import "layout/home";
 @import "layout/footer";

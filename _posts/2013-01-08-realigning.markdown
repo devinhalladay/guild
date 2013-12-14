@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realigning
-feature_image: http://www.placecage.com/c/336/207
+feature_image: http://www.fillmurray.com/g/780/440
 ---
 
 It's a new year, and an exciting one at that. I'll (finally) be graduating this Spring and looking for a job I love in a place I love. There are a few things I've promised to do this year, as well. I want to take more photos. I want to make more things. And I want to learn something new. I want to see change. And I thought I'd initiate some of that change on this website.

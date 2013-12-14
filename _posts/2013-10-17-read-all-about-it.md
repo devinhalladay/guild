@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Read All About It
-feature_image: http://www.placecage.com/c/336/207
+title: Lorem Ipsum Translated
+feature_image: http://www.fillmurray.com/g/780/440
 ---
-
-This website has gone through a lot of iterations, the vast majority of which have—unfortunately—been lost to my trigger-happy self. Now seems as good a time as ever to document something about the formal design decisions behind the current iteration. Specifically, the typographic decisions.
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
 
 When it came to the task of redesigning my website again, I gave myself a broad objective; it should read like a newspaper. Not necessarily in its content, but its typographic appearance. Its typeface and typographic hierarchy should at some level resemble that of a newspaper. I felt it was a suitable objective to aim for due to the general long-term readability of newspaper body copy and easily-digestible headlines. Combining inspiration from various news publications with general typographic "best practices," I’ve managed to create a design with which I’m happier than I have ever been.
 
