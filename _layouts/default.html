@@ -25,14 +25,19 @@
   <div class="wrap">
 
     <div class="header">
-      <h1><a href="/">The Guild</a></h1>
+      <h1>
+        <a href="/">
+          <span>The Guild</span>
+          <img src="http://notcoming.com/includes/img/nameplate_mobile_icon.png">
+        </a>
+      </h1>
       <ul>
         <li><a{% if page.url == '/' %} class="active"{% endif %} href="/">Home</a></li>
         <li><a{% if page.url == '/about/' %} class="active"{% endif %} href="/about">About</a></li>
         <li><a{% if page.url == '/archives/' %} class="active"{% endif %} href="/archives">Archives</a></li>
       </ul>
 
-      <div>
+      <div class="search-container">
         <form id="search" action="/search" method="get">
           <label for="search-query">Search</label>
           <input type="text" name="q" id="search-query" placeholder="Search" value="" autocomplete="off">
@@ -47,5 +52,10 @@
   </div>
 
   {% javascript main %}
+  <script>$(document).ready(function(){
+  if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+    $(".header ul, .search-container").click(function(){ });
+  }
+});</script>
 </body>
 </html>

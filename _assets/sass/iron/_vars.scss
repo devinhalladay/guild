@@ -4,5 +4,6 @@ $serif: "Mercury SSm 4r","Mercury SSm A","Mercury SSm B","Whitney SSm 4r","Whitn
 $sans: "Whitney SSm 4r","Whitney SSm A","Whitney SSm B","Lucida Grande", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
 
 $tablet: new-breakpoint(720px);
+$smaller-than-tablet: new-breakpoint(max-width 750px);
 $desktop: new-breakpoint(981px);
 $smaller-than-desktop: new-breakpoint(max-width 980px);

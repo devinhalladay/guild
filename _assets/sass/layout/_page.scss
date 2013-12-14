@@ -1,8 +1,5 @@
 .page {
-  @include span-columns( 12 of 12 );
-  margin: auto;
-
-  @include media( $tablet ) {
+  @include media( $smaller-than-desktop ) {
     width: 692px;
     margin: auto;
     float: none;
@@ -15,5 +12,10 @@
     @include span-columns( 9 of 12 );
     float: left;
     margin-top: 20px;
+  }
+
+  @include media( $smaller-than-tablet ) {
+    @include span-columns( 12 of 12 );
+    margin: auto;
   }
 }
